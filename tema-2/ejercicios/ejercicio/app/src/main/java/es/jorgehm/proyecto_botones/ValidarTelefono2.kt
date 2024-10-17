@@ -12,11 +12,15 @@ import es.jorgehm.proyecto_botones.databinding.ActivityValidarTelefonoBinding
 
 class ValidarTelefono2 : AppCompatActivity() {
 
+    companion object{
+        val EXTRA_TELEFONO: String = "TELEFONO"
+        val EXTRA_MENSAJE: String = "MENSAJE"
+    }
+
     private lateinit var binding: ActivityValidarTelefono2Binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityValidarTelefono2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -25,10 +29,12 @@ class ValidarTelefono2 : AppCompatActivity() {
         }
 
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        binding.llamadaSegundaPantalla.setOnClickListener() {
+            //Los intent permiten enviar datos entre dos actividades
+            val intent = Intent(this, PantallaDestino::class.java)
+            intent.putExtra(EXTRA_TELEFONO, binding.telefono.text.toString())
+            intent.putExtra(EXTRA_MENSAJE, "hola")
+            startActivity(intent)
         }
     }
 

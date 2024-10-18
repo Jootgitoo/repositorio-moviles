@@ -12,6 +12,7 @@ import es.jorgehm.proyecto_botones.databinding.ActivityValidarTelefonoBinding
 
 class ValidarTelefono2 : AppCompatActivity() {
 
+    //Estas creando constantes
     companion object{
         val EXTRA_TELEFONO: String = "TELEFONO"
         val EXTRA_MENSAJE: String = "MENSAJE"

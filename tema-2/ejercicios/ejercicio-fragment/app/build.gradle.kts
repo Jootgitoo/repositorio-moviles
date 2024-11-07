@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "es.jorgehm.toolbar"
+    namespace = "es.jorgehm.ejemplofragmento"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "es.jorgehm.toolbar"
+        applicationId = "es.jorgehm.ejemplofragmento"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -33,7 +33,6 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-
     buildFeatures {
         viewBinding = true
     }
@@ -49,5 +48,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation("com.google.android.material:material:1.12.0")
 }

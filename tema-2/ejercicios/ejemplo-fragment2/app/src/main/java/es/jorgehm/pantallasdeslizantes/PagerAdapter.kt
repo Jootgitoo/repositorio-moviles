@@ -15,7 +15,7 @@ class PagerAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fr
         return when(position){
             0 -> { FirstFragment() }
             1 -> { SecondFragment() }
-            1 -> { ThirdFragment() }
+            2 -> { ThirdFragment() }
             else -> { throw Resources.NotFoundException("Position not found")}
         }
     }

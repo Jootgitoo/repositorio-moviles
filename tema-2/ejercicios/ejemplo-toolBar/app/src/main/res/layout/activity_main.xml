@@ -25,7 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:navigationIcon="@drawable/ic_launcher_foreground"
+        app:navigationIcon="@drawable/icono_menu"
         app:subtitle="Subtitulo nuevo"
         app:title="Nuevo titulo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

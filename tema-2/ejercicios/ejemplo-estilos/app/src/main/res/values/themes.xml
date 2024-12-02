@@ -5,8 +5,14 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="NewTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="AppNewTheme" parent="Theme.AppCompat.Light">
         <item name="android:textStyle">italic</item>
+        <item name="android:windowBackground">@android:color/holo_green_light</item>
+        <item name="android:textColor">#DB0EDB</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:background">@drawable/ic_launcher_foreground</item>
+        <item name="android:elevation">10dp</item>
     </style>
 
     <style name="Theme.CambioEstilo" parent="Base.Theme.CambioEstilo" />

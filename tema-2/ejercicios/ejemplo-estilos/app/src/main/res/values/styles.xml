@@ -7,7 +7,7 @@
     </style>
 
 
-    <style name="temaOscuro" parent="Theme.Material3.Dark">
+    <style name="temaOscuro" parent="Theme.Material3.Dark" >
 
     </style>
 </resources>

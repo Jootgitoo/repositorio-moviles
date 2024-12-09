@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8B8B">
+
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="285dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="405dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Escribe el dato"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

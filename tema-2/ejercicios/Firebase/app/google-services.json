@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "235219186080",
+    "project_id": "bbddfirebase4",
+    "storage_bucket": "bbddfirebase4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235219186080:android:86df1ebe399161c9f934c5",
+        "android_client_info": {
+          "package_name": "es.jorgehm.bbddfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3mTgpyn3b6zFRb9nHIrYUF4abAhDeuo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

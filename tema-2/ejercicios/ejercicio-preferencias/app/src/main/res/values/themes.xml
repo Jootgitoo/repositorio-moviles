@@ -5,5 +5,9 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Preferencias" parent="Base.Theme.Preferencias" />
+    <style name="newAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="backgroundColor">@color/colorFondoTemaClaro</item>
+        <item name="fontFamily">italic</item>
+        <item name="android:textColor">@color/colorLetrasTemaClaro</item>
+    </style>
 </resources>

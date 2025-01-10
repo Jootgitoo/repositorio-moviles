@@ -2,4 +2,12 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores tema claro-->
+    <color name="colorFondoTemaClaro">#DFD286</color>
+    <color name="colorLetrasTemaClaro">#468EE0</color>
+
+    <!-- Colores tema oscuro-->
+    <color name="colorFondoTemaOscuro">#10454F</color>
+    <color name="colorLetrasTemaOscuro">#BDE038</color>
 </resources>
